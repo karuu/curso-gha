@@ -10,8 +10,8 @@ jobs:
       - name: Setting an error message with params
         run: echo "::error tittle=Error title, file=app.js, line=2, endLine=2,col=5,endColumn=7::Missing Semicolor"
       - name: Setting an debug message with params
-        run: echo "::error tittle=Debug title, file=app.js, line=2, endLine=2,col=5,endColumn=7::Missing Semicolor"
+        run: echo "::debug tittle=Debug title, file=app.js, line=2, endLine=2,col=5,endColumn=7::Missing Semicolor"
       - name: Setting an warning message with params
-        run: echo "::error tittle=Warning title, file=app.js, line=2, endLine=2,col=5,endColumn=7::Missing Semicolor"
+        run: echo "::warning tittle=Warning title, file=app.js, line=2, endLine=2,col=5,endColumn=7::Missing Semicolor"
       - name: Setting an notice message with params
-        run: echo "::error tittle=Notice title, file=app.js, line=2, endLine=2,col=5,endColumn=7::Missing Semicolor"
+        run: echo "::notice tittle=Notice title, file=app.js, line=2, endLine=2,col=5,endColumn=7::Missing Semicolor"
