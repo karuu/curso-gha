@@ -6,7 +6,7 @@ jobs:
         steps:
             - name: Simple JS Action
               id: greet
-              uses: actions/hello-world-javascript-actions@v1 #main o commit id, the most reliable way.
+              uses: actions/hello-world-javascript-action@v1 #main o commit id, the most reliable way.
               with: 
                 who-to-greet: Karu
             - name: Log Greeting Time
